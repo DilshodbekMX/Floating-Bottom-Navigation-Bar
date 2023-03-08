@@ -17,9 +17,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-
-
-
     <com.etebarian.meowbottomnavigation.MeowBottomNavigation
         android:id="@+id/bottomNav"
         android:layout_width="match_parent"
@@ -28,10 +25,10 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:mbn_backgroundBottomColor="#ffff01"
-        app:mbn_circleColor="#E4E4C3"
+        app:mbn_backgroundBottomColor="#fcc90c"
+        app:mbn_circleColor="@color/purple_700"
         app:mbn_countBackgroundColor="#B85E18"
         app:mbn_defaultIconColor="@color/purple_700"
-        app:mbn_selectedIconColor="@color/purple_500" />
+        app:mbn_selectedIconColor="#fcc90c" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
